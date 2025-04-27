@@ -7,8 +7,8 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key'  # Needed for flashing messages
 
 # Configure your email settings here
-EMAIL_ADDRESS = 'yousjar@gmail.com'
-EMAIL_PASSWORD = 'echi caab metg qfre'
+EMAIL_ADDRESS = 'your_email'
+EMAIL_PASSWORD = 'your_password'
 
 @app.route('/', methods=['GET', 'POST'])
 def send_email():
